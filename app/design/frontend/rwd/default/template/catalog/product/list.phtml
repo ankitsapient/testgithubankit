@@ -27,7 +27,7 @@
 <?php
 /**
  * Product list template
- *
+ * test comment
  * @see Mage_Catalog_Block_Product_List
  */
 /* @var $this Mage_Catalog_Block_Product_List */
@@ -39,7 +39,8 @@
 <?php if(!$_productCollection->count()): ?>
 <p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
 <?php else: ?>
-<div class="category-products">
+<div class="category-products">    
+
     <?php echo $this->getToolbarHtml() ?>
     <?php // List mode ?>
     <?php if($this->getMode()!='grid'): ?>
